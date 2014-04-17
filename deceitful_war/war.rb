@@ -45,3 +45,6 @@ for test in 1..num_tests
 
   f_write.write "Case ##{test}: #{d_points} #{n_points}\n"
 end
+
+f_read.close unless f_read.nil?
+f_write.close unless f_write.nil?
